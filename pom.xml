@@ -94,15 +94,15 @@
 
   <distributionManagement>
       <repository>
-        <id>nexus</id>
-        <name>Devops Xpress Releases Nexus Repository</name>
-        <url>/</url>
-      </repository>
-      http://192.168.28.5:8081/Devops/repository/tesla-releases/
-      <snapshotRepository>
-        <id>nexus</id>
-        <name>Devops Xpress Snapshot Nexus Repository </name>
-        <url>/</url>http://192.168.28.5:8081/Devops/repository/tesla-snapshot/
+  <id>nexus</id>
+  <name>Devops Xpress Releases Nexus Repository</name>
+ <url>/</url>
+ </repository>
+ http://192.168.28.5:8081/Devops/repository/tesla-releases/
+ <snapshotRepository>
+<id>nexus</id>
+<name>Devops Xpress Snapshot Nexus Repository </name>
+<url>/</url>http://192.168.28.5:8081/Devops/repository/tesla-snapshot/
       </snapshotRepository>
       
   </distributionManagement>
